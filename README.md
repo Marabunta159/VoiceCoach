@@ -2,8 +2,8 @@
 
 > **The free, open-source alternative to HuddleMate, Cluely & Co.**
 > Listens to your conversations, tracks how long you've been quiet, and suggests
-> exactly what to say next — powered by your own AI API key. Runs 100 % on your
-> machine, nothing leaves your PC except the API call.
+> exactly what to say next — powered by your own AI API key.
+> Nothing leaves your PC except the API call.
 > For: Quiet people in friendship groups, nervous people when applying for jobs, etc.
 > It does not save the transcript, but check if you are allowed legally to use it and send Information to AI. 
 > Note: Not invisible in Screen Sharing
