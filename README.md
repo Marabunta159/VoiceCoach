@@ -12,11 +12,12 @@
 
 ## ✨ What it does
 
-- 🎙 **Listens to your microphone** and your speaker output simultaneously
+- 🎙 **Listens** to your **microphone** and your **speaker** output **simultaneously**
 - 📝 **Transcribes live** using [faster-whisper](https://github.com/SYSTRAN/faster-whisper) — locally, no cloud.
-  Default model: [`TheTobyB/whisper-large-v3-turbo-german-ct2`](https://huggingface.co/TheTobyB/whisper-large-v3-turbo-german-ct2) (optimized for German), swappable in `config.py`
-- ⏱ **Tracks your silence** — yellow → orange → red warning when you've been quiet too long
+  Default transcription model: [`TheTobyB/whisper-large-v3-turbo-german-ct2`](https://huggingface.co/TheTobyB/whisper-large-v3-turbo-german-ct2) (optimized for German), swappable in `config.py`
+- ⏱ **Tracks your silence** — yellow → orange → red warning when you've been quiet for a long time
 - 🤖 **Asks an AI** what you could say next, based on the last N lines of the conversation
+  Default AI model: **google/gemini-2.5-flash-lite** fast and cheap
 - 💡 **Shows 3 concrete suggestions** — not generic filler, real sentences you can actually say
 - 🗂 **Profile system** — create different prompt styles for different groups or situations
 - 📌 **Context field** — add a topic or position on the fly ("Topic: AI · I'm pro · counter the last argument")
