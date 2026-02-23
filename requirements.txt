@@ -1,0 +1,14 @@
+# VoiceCoach – Python dependencies
+# Install with: pip install -r requirements.txt
+# Then separately: pip install pyaudiowpatch
+# (pyaudiowpatch replaces pyaudio and must be installed separately)
+
+numpy>=1.26.0
+faster-whisper>=1.0.0
+requests>=2.31.0
+keyboard>=0.13.5
+sounddevice>=0.4.6
+
+# Note: pyaudiowpatch is NOT listed here on purpose.
+# It conflicts with pyaudio if both are present.
+# Install it manually: pip install pyaudiowpatch
